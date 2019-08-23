@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.DashBoardLeft"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:id="@+id/LLfragmentLeft">
+
+    <!-- TODO: Update blank fragment layout -->
+   <TextView
+       android:id="@+id/TVeditProfile"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Edit Profile"
+       android:textSize="18sp"
+       android:layout_marginLeft="10dp"
+       />
+    <TextView
+        android:id="@+id/TVaddStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Store"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/TVviewStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Store"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/TVaddRole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Role"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/TVviewRole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Role"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/TVaddAppTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add App Theme"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/TVlogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"/>
+
+
+
+</LinearLayout>
