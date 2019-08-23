@@ -75,6 +75,8 @@ public class BasicActivity extends AppCompatActivity {
 
                 ft.add(R.id.LLBasicActivity, addAppTheme);
                 ft.commit();
+
+                //test commit
             }
         }
 
